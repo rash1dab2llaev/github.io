@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/look.com.ua-395841.jpg);
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* form 1 */
+.form1 {
+    color: #fff;
+    background-color: rgb(3, 0, 47, 0.5);
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    align-items: center;
+
+}
+
+.form1 input {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.form1 label {
+    text-transform: uppercase;
+}
+
+.card_block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 200px;
+    background-color: rgb(3, 0, 47, 0.5);
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.img_card {
+    width: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.add_btn {
+    background-color: rgb(12, 0, 54);
+    color: #fff;
+    padding: 7px 25px;
+    border-radius: 10px;
+}
+
+/* delete */
+
+.delete_btn {
+    font-size: 2em;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.delete_btn:hover {
+    transform: scale(1.5, 1.5);
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+/* delte modal */
+.delte_modal {
+    background-color: rgb(3, 0, 47, 0.5);
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+}
+
+.delte_modal_content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.yes_btn {
+    background-color: rgb(3, 0, 47);
+    padding: 5px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* edit */
+
+.edit_btn {
+    background-color: rgb(12, 0, 54,0.5);
+    color: #fff;
+    padding: 7px 25px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* form2 */
+
+#form2{
+    display: none;
+}
+.form2 {
+    color: #fff;
+    background-color: rgb(3, 0, 47, 0.9);
+    padding: 70px 20px 20px 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    align-items: center;
+    position: absolute;
+    top:300px;
+    height: 200px;
+    align-items: center;
+
+}
+
+.form2 input {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.form2 label {
+    text-transform: uppercase;
+}
+
+.card_block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 200px;
+    background-color: rgb(3, 0, 47, 0.5);
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.img_card {
+    width: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.add_btn {
+    background-color: rgb(12, 0, 54);
+    color: #fff;
+    padding: 7px 25px;
+    border-radius: 10px;
+}
